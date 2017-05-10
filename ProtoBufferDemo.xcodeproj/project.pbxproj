@@ -15,6 +15,27 @@
 		1433D9C11E8B4B9C004EA9D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1433D9BF1E8B4B9C004EA9D1 /* LaunchScreen.storyboard */; };
 		1433D9CC1E8B4B9C004EA9D1 /* ProtoBufferDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433D9CB1E8B4B9C004EA9D1 /* ProtoBufferDemoTests.m */; };
 		1433D9D71E8B4B9C004EA9D1 /* ProtoBufferDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433D9D61E8B4B9C004EA9D1 /* ProtoBufferDemoUITests.m */; };
+		1433DA261E8B4CC4004EA9D1 /* Person.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA241E8B4CC4004EA9D1 /* Person.pb.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DA271E8B4CC4004EA9D1 /* Person.proto in Resources */ = {isa = PBXBuildFile; fileRef = 1433DA251E8B4CC4004EA9D1 /* Person.proto */; };
+		1433DA941E8B53E4004EA9D1 /* AbstractMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA6A1E8B53E4004EA9D1 /* AbstractMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DA951E8B53E4004EA9D1 /* AbstractMessage_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA6C1E8B53E4004EA9D1 /* AbstractMessage_Builder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DA961E8B53E4004EA9D1 /* CodedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA6F1E8B53E4004EA9D1 /* CodedInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DA971E8B53E4004EA9D1 /* CodedOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA711E8B53E4004EA9D1 /* CodedOutputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DA981E8B53E4004EA9D1 /* ConcreteExtensionField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA731E8B53E4004EA9D1 /* ConcreteExtensionField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DA991E8B53E4004EA9D1 /* ExtendableMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA751E8B53E4004EA9D1 /* ExtendableMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DA9A1E8B53E4004EA9D1 /* ExtendableMessage_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA771E8B53E4004EA9D1 /* ExtendableMessage_Builder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DA9B1E8B53E4004EA9D1 /* ExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA7A1E8B53E4004EA9D1 /* ExtensionRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DA9C1E8B53E4004EA9D1 /* Field.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA7C1E8B53E4004EA9D1 /* Field.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DA9D1E8B53E4004EA9D1 /* GeneratedMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA7F1E8B53E4004EA9D1 /* GeneratedMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DA9E1E8B53E4004EA9D1 /* GeneratedMessage_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA811E8B53E4004EA9D1 /* GeneratedMessage_Builder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DAA01E8B53E4004EA9D1 /* MutableExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA861E8B53E4004EA9D1 /* MutableExtensionRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DAA11E8B53E4004EA9D1 /* MutableField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA881E8B53E4004EA9D1 /* MutableField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DAA21E8B53E4004EA9D1 /* TextFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA8B1E8B53E4004EA9D1 /* TextFormat.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DAA31E8B53E4004EA9D1 /* UnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA8D1E8B53E4004EA9D1 /* UnknownFieldSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DAA41E8B53E4004EA9D1 /* UnknownFieldSet_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA8F1E8B53E4004EA9D1 /* UnknownFieldSet_Builder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DAA51E8B53E4004EA9D1 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA911E8B53E4004EA9D1 /* Utilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DAA61E8B53E4004EA9D1 /* WireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA931E8B53E4004EA9D1 /* WireFormat.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1433DAB41E8CDE5A004EA9D1 /* WTYDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DAB31E8CDE5A004EA9D1 /* WTYDrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +72,54 @@
 		1433D9D21E8B4B9C004EA9D1 /* ProtoBufferDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoBufferDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1433D9D61E8B4B9C004EA9D1 /* ProtoBufferDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtoBufferDemoUITests.m; sourceTree = "<group>"; };
 		1433D9D81E8B4B9C004EA9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1433DA231E8B4CC4004EA9D1 /* Person.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.pb.h; sourceTree = "<group>"; };
+		1433DA241E8B4CC4004EA9D1 /* Person.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.pb.m; sourceTree = "<group>"; };
+		1433DA251E8B4CC4004EA9D1 /* Person.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Person.proto; sourceTree = "<group>"; };
+		1433DA671E8B4EB7004EA9D1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1433DA691E8B53E4004EA9D1 /* AbstractMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMessage.h; sourceTree = "<group>"; };
+		1433DA6A1E8B53E4004EA9D1 /* AbstractMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractMessage.m; sourceTree = "<group>"; };
+		1433DA6B1E8B53E4004EA9D1 /* AbstractMessage_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMessage_Builder.h; sourceTree = "<group>"; };
+		1433DA6C1E8B53E4004EA9D1 /* AbstractMessage_Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractMessage_Builder.m; sourceTree = "<group>"; };
+		1433DA6D1E8B53E4004EA9D1 /* Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bootstrap.h; sourceTree = "<group>"; };
+		1433DA6E1E8B53E4004EA9D1 /* CodedInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodedInputStream.h; sourceTree = "<group>"; };
+		1433DA6F1E8B53E4004EA9D1 /* CodedInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodedInputStream.m; sourceTree = "<group>"; };
+		1433DA701E8B53E4004EA9D1 /* CodedOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodedOutputStream.h; sourceTree = "<group>"; };
+		1433DA711E8B53E4004EA9D1 /* CodedOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodedOutputStream.m; sourceTree = "<group>"; };
+		1433DA721E8B53E4004EA9D1 /* ConcreteExtensionField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteExtensionField.h; sourceTree = "<group>"; };
+		1433DA731E8B53E4004EA9D1 /* ConcreteExtensionField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteExtensionField.m; sourceTree = "<group>"; };
+		1433DA741E8B53E4004EA9D1 /* ExtendableMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendableMessage.h; sourceTree = "<group>"; };
+		1433DA751E8B53E4004EA9D1 /* ExtendableMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendableMessage.m; sourceTree = "<group>"; };
+		1433DA761E8B53E4004EA9D1 /* ExtendableMessage_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendableMessage_Builder.h; sourceTree = "<group>"; };
+		1433DA771E8B53E4004EA9D1 /* ExtendableMessage_Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendableMessage_Builder.m; sourceTree = "<group>"; };
+		1433DA781E8B53E4004EA9D1 /* ExtensionField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionField.h; sourceTree = "<group>"; };
+		1433DA791E8B53E4004EA9D1 /* ExtensionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionRegistry.h; sourceTree = "<group>"; };
+		1433DA7A1E8B53E4004EA9D1 /* ExtensionRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtensionRegistry.m; sourceTree = "<group>"; };
+		1433DA7B1E8B53E4004EA9D1 /* Field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Field.h; sourceTree = "<group>"; };
+		1433DA7C1E8B53E4004EA9D1 /* Field.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Field.m; sourceTree = "<group>"; };
+		1433DA7D1E8B53E4004EA9D1 /* ForwardDeclarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardDeclarations.h; sourceTree = "<group>"; };
+		1433DA7E1E8B53E4004EA9D1 /* GeneratedMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedMessage.h; sourceTree = "<group>"; };
+		1433DA7F1E8B53E4004EA9D1 /* GeneratedMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedMessage.m; sourceTree = "<group>"; };
+		1433DA801E8B53E4004EA9D1 /* GeneratedMessage_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedMessage_Builder.h; sourceTree = "<group>"; };
+		1433DA811E8B53E4004EA9D1 /* GeneratedMessage_Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedMessage_Builder.m; sourceTree = "<group>"; };
+		1433DA831E8B53E4004EA9D1 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		1433DA841E8B53E4004EA9D1 /* Message_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message_Builder.h; sourceTree = "<group>"; };
+		1433DA851E8B53E4004EA9D1 /* MutableExtensionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableExtensionRegistry.h; sourceTree = "<group>"; };
+		1433DA861E8B53E4004EA9D1 /* MutableExtensionRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableExtensionRegistry.m; sourceTree = "<group>"; };
+		1433DA871E8B53E4004EA9D1 /* MutableField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableField.h; sourceTree = "<group>"; };
+		1433DA881E8B53E4004EA9D1 /* MutableField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableField.m; sourceTree = "<group>"; };
+		1433DA891E8B53E4004EA9D1 /* ProtocolBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolBuffers.h; sourceTree = "<group>"; };
+		1433DA8A1E8B53E4004EA9D1 /* TextFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFormat.h; sourceTree = "<group>"; };
+		1433DA8B1E8B53E4004EA9D1 /* TextFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFormat.m; sourceTree = "<group>"; };
+		1433DA8C1E8B53E4004EA9D1 /* UnknownFieldSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnknownFieldSet.h; sourceTree = "<group>"; };
+		1433DA8D1E8B53E4004EA9D1 /* UnknownFieldSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnknownFieldSet.m; sourceTree = "<group>"; };
+		1433DA8E1E8B53E4004EA9D1 /* UnknownFieldSet_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnknownFieldSet_Builder.h; sourceTree = "<group>"; };
+		1433DA8F1E8B53E4004EA9D1 /* UnknownFieldSet_Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnknownFieldSet_Builder.m; sourceTree = "<group>"; };
+		1433DA901E8B53E4004EA9D1 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		1433DA911E8B53E4004EA9D1 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		1433DA921E8B53E4004EA9D1 /* WireFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WireFormat.h; sourceTree = "<group>"; };
+		1433DA931E8B53E4004EA9D1 /* WireFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WireFormat.m; sourceTree = "<group>"; };
+		1433DAB21E8CDE5A004EA9D1 /* WTYDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYDrawView.h; sourceTree = "<group>"; };
+		1433DAB31E8CDE5A004EA9D1 /* WTYDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYDrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +170,17 @@
 		1433D9B01E8B4B9C004EA9D1 /* ProtoBufferDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1433DA231E8B4CC4004EA9D1 /* Person.pb.h */,
+				1433DA241E8B4CC4004EA9D1 /* Person.pb.m */,
+				1433DA251E8B4CC4004EA9D1 /* Person.proto */,
 				1433D9B41E8B4B9C004EA9D1 /* AppDelegate.h */,
 				1433D9B51E8B4B9C004EA9D1 /* AppDelegate.m */,
 				1433D9B71E8B4B9C004EA9D1 /* ViewController.h */,
 				1433D9B81E8B4B9C004EA9D1 /* ViewController.m */,
+				1433DAB21E8CDE5A004EA9D1 /* WTYDrawView.h */,
+				1433DAB31E8CDE5A004EA9D1 /* WTYDrawView.m */,
+				1433DA671E8B4EB7004EA9D1 /* PrefixHeader.pch */,
+				1433DA681E8B53E4004EA9D1 /* ProtocolBuffers */,
 				1433D9BA1E8B4B9C004EA9D1 /* Main.storyboard */,
 				1433D9BD1E8B4B9C004EA9D1 /* Assets.xcassets */,
 				1433D9BF1E8B4B9C004EA9D1 /* LaunchScreen.storyboard */,
@@ -138,6 +214,55 @@
 				1433D9D81E8B4B9C004EA9D1 /* Info.plist */,
 			);
 			path = ProtoBufferDemoUITests;
+			sourceTree = "<group>";
+		};
+		1433DA681E8B53E4004EA9D1 /* ProtocolBuffers */ = {
+			isa = PBXGroup;
+			children = (
+				1433DA691E8B53E4004EA9D1 /* AbstractMessage.h */,
+				1433DA6A1E8B53E4004EA9D1 /* AbstractMessage.m */,
+				1433DA6B1E8B53E4004EA9D1 /* AbstractMessage_Builder.h */,
+				1433DA6C1E8B53E4004EA9D1 /* AbstractMessage_Builder.m */,
+				1433DA6D1E8B53E4004EA9D1 /* Bootstrap.h */,
+				1433DA6E1E8B53E4004EA9D1 /* CodedInputStream.h */,
+				1433DA6F1E8B53E4004EA9D1 /* CodedInputStream.m */,
+				1433DA701E8B53E4004EA9D1 /* CodedOutputStream.h */,
+				1433DA711E8B53E4004EA9D1 /* CodedOutputStream.m */,
+				1433DA721E8B53E4004EA9D1 /* ConcreteExtensionField.h */,
+				1433DA731E8B53E4004EA9D1 /* ConcreteExtensionField.m */,
+				1433DA741E8B53E4004EA9D1 /* ExtendableMessage.h */,
+				1433DA751E8B53E4004EA9D1 /* ExtendableMessage.m */,
+				1433DA761E8B53E4004EA9D1 /* ExtendableMessage_Builder.h */,
+				1433DA771E8B53E4004EA9D1 /* ExtendableMessage_Builder.m */,
+				1433DA781E8B53E4004EA9D1 /* ExtensionField.h */,
+				1433DA791E8B53E4004EA9D1 /* ExtensionRegistry.h */,
+				1433DA7A1E8B53E4004EA9D1 /* ExtensionRegistry.m */,
+				1433DA7B1E8B53E4004EA9D1 /* Field.h */,
+				1433DA7C1E8B53E4004EA9D1 /* Field.m */,
+				1433DA7D1E8B53E4004EA9D1 /* ForwardDeclarations.h */,
+				1433DA7E1E8B53E4004EA9D1 /* GeneratedMessage.h */,
+				1433DA7F1E8B53E4004EA9D1 /* GeneratedMessage.m */,
+				1433DA801E8B53E4004EA9D1 /* GeneratedMessage_Builder.h */,
+				1433DA811E8B53E4004EA9D1 /* GeneratedMessage_Builder.m */,
+				1433DA831E8B53E4004EA9D1 /* Message.h */,
+				1433DA841E8B53E4004EA9D1 /* Message_Builder.h */,
+				1433DA851E8B53E4004EA9D1 /* MutableExtensionRegistry.h */,
+				1433DA861E8B53E4004EA9D1 /* MutableExtensionRegistry.m */,
+				1433DA871E8B53E4004EA9D1 /* MutableField.h */,
+				1433DA881E8B53E4004EA9D1 /* MutableField.m */,
+				1433DA891E8B53E4004EA9D1 /* ProtocolBuffers.h */,
+				1433DA8A1E8B53E4004EA9D1 /* TextFormat.h */,
+				1433DA8B1E8B53E4004EA9D1 /* TextFormat.m */,
+				1433DA8C1E8B53E4004EA9D1 /* UnknownFieldSet.h */,
+				1433DA8D1E8B53E4004EA9D1 /* UnknownFieldSet.m */,
+				1433DA8E1E8B53E4004EA9D1 /* UnknownFieldSet_Builder.h */,
+				1433DA8F1E8B53E4004EA9D1 /* UnknownFieldSet_Builder.m */,
+				1433DA901E8B53E4004EA9D1 /* Utilities.h */,
+				1433DA911E8B53E4004EA9D1 /* Utilities.m */,
+				1433DA921E8B53E4004EA9D1 /* WireFormat.h */,
+				1433DA931E8B53E4004EA9D1 /* WireFormat.m */,
+			);
+			path = ProtocolBuffers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1433D9C11E8B4B9C004EA9D1 /* LaunchScreen.storyboard in Resources */,
+				1433DA271E8B4CC4004EA9D1 /* Person.proto in Resources */,
 				1433D9BE1E8B4B9C004EA9D1 /* Assets.xcassets in Resources */,
 				1433D9BC1E8B4B9C004EA9D1 /* Main.storyboard in Resources */,
 			);
@@ -273,9 +399,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1433DA941E8B53E4004EA9D1 /* AbstractMessage.m in Sources */,
+				1433DA9C1E8B53E4004EA9D1 /* Field.m in Sources */,
+				1433DA9A1E8B53E4004EA9D1 /* ExtendableMessage_Builder.m in Sources */,
+				1433DAA01E8B53E4004EA9D1 /* MutableExtensionRegistry.m in Sources */,
+				1433DA951E8B53E4004EA9D1 /* AbstractMessage_Builder.m in Sources */,
+				1433DAA11E8B53E4004EA9D1 /* MutableField.m in Sources */,
+				1433DAA51E8B53E4004EA9D1 /* Utilities.m in Sources */,
+				1433DA971E8B53E4004EA9D1 /* CodedOutputStream.m in Sources */,
 				1433D9B91E8B4B9C004EA9D1 /* ViewController.m in Sources */,
+				1433DAA61E8B53E4004EA9D1 /* WireFormat.m in Sources */,
+				1433DAB41E8CDE5A004EA9D1 /* WTYDrawView.m in Sources */,
+				1433DAA31E8B53E4004EA9D1 /* UnknownFieldSet.m in Sources */,
+				1433DAA41E8B53E4004EA9D1 /* UnknownFieldSet_Builder.m in Sources */,
+				1433DA981E8B53E4004EA9D1 /* ConcreteExtensionField.m in Sources */,
+				1433DA9D1E8B53E4004EA9D1 /* GeneratedMessage.m in Sources */,
+				1433DA961E8B53E4004EA9D1 /* CodedInputStream.m in Sources */,
+				1433DA261E8B4CC4004EA9D1 /* Person.pb.m in Sources */,
+				1433DAA21E8B53E4004EA9D1 /* TextFormat.m in Sources */,
+				1433DA9B1E8B53E4004EA9D1 /* ExtensionRegistry.m in Sources */,
 				1433D9B61E8B4B9C004EA9D1 /* AppDelegate.m in Sources */,
 				1433D9B31E8B4B9C004EA9D1 /* main.m in Sources */,
+				1433DA9E1E8B53E4004EA9D1 /* GeneratedMessage_Builder.m in Sources */,
+				1433DA991E8B53E4004EA9D1 /* ExtendableMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +567,11 @@
 		1433D9DC1E8B4B9C004EA9D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ProtoBufferDemo/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/ProtoBufferDemo/ProtocolBuffers\"";
 				INFOPLIST_FILE = ProtoBufferDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WTY.ProtoBufferDemo;
@@ -432,7 +582,11 @@
 		1433D9DD1E8B4B9C004EA9D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ProtoBufferDemo/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/ProtoBufferDemo/ProtocolBuffers\"";
 				INFOPLIST_FILE = ProtoBufferDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WTY.ProtoBufferDemo;
@@ -505,6 +659,7 @@
 				1433D9DD1E8B4B9C004EA9D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1433D9DE1E8B4B9C004EA9D1 /* Build configuration list for PBXNativeTarget "ProtoBufferDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +668,7 @@
 				1433D9E01E8B4B9C004EA9D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1433D9E11E8B4B9C004EA9D1 /* Build configuration list for PBXNativeTarget "ProtoBufferDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +677,7 @@
 				1433D9E31E8B4B9C004EA9D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
