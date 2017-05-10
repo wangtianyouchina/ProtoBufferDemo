@@ -38,6 +38,7 @@
 		1433DAB41E8CDE5A004EA9D1 /* WTYDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DAB31E8CDE5A004EA9D1 /* WTYDrawView.m */; };
 		149E9D571EC3356E0076A706 /* WTYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 149E9D561EC3356E0076A706 /* WTYFileManager.m */; };
 		149E9D5A1EC335A10076A706 /* WTYDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 149E9D591EC335A10076A706 /* WTYDBManager.m */; };
+		149E9D5C1EC33B460076A706 /* WTYFileManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 149E9D5B1EC33B460076A706 /* WTYFileManagerTestCase.m */; };
 		8C610905B8C411B44C757F50 /* libPods-ProtoBufferDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 706D72DBCBE6E31E8EBF7AE4 /* libPods-ProtoBufferDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -128,6 +129,7 @@
 		149E9D561EC3356E0076A706 /* WTYFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYFileManager.m; sourceTree = "<group>"; };
 		149E9D581EC335A10076A706 /* WTYDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYDBManager.h; sourceTree = "<group>"; };
 		149E9D591EC335A10076A706 /* WTYDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYDBManager.m; sourceTree = "<group>"; };
+		149E9D5B1EC33B460076A706 /* WTYFileManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYFileManagerTestCase.m; sourceTree = "<group>"; };
 		439F065A2DB75914FDE14DE2 /* Pods-ProtoBufferDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtoBufferDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProtoBufferDemo/Pods-ProtoBufferDemo.release.xcconfig"; sourceTree = "<group>"; };
 		706D72DBCBE6E31E8EBF7AE4 /* libPods-ProtoBufferDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProtoBufferDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -219,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				1433D9CB1E8B4B9C004EA9D1 /* ProtoBufferDemoTests.m */,
+				149E9D5B1EC33B460076A706 /* WTYFileManagerTestCase.m */,
 				1433D9CD1E8B4B9C004EA9D1 /* Info.plist */,
 			);
 			path = ProtoBufferDemoTests;
@@ -516,6 +519,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				149E9D5C1EC33B460076A706 /* WTYFileManagerTestCase.m in Sources */,
 				1433D9CC1E8B4B9C004EA9D1 /* ProtoBufferDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -657,6 +661,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ProtoBufferDemo/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = "$(inherited)";
@@ -673,6 +678,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ProtoBufferDemo/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = "$(inherited)";

@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface WTYFileManager : NSObject
-
++(instancetype)shareInstance;
+-(void)moveFilePath:(NSString *)fromPath toPath:(NSString *)path;
+-(void)removeFilePath:(NSString *)filePath;
+-(void)copyFilePath:(NSString *)fromPath toPath:(NSString *)topath;
+-(BOOL)creatFileWithPath:(NSString *)path content:(NSString *)content;
+-(void)creatDirWithPath:(NSString *)path;
 @end
