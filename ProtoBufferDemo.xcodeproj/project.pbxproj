@@ -36,6 +36,9 @@
 		1433DAA51E8B53E4004EA9D1 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA911E8B53E4004EA9D1 /* Utilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1433DAA61E8B53E4004EA9D1 /* WireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA931E8B53E4004EA9D1 /* WireFormat.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1433DAB41E8CDE5A004EA9D1 /* WTYDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433DAB31E8CDE5A004EA9D1 /* WTYDrawView.m */; };
+		149E9D571EC3356E0076A706 /* WTYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 149E9D561EC3356E0076A706 /* WTYFileManager.m */; };
+		149E9D5A1EC335A10076A706 /* WTYDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 149E9D591EC335A10076A706 /* WTYDBManager.m */; };
+		8C610905B8C411B44C757F50 /* libPods-ProtoBufferDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 706D72DBCBE6E31E8EBF7AE4 /* libPods-ProtoBufferDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10786617BEE525F850C47962 /* Pods-ProtoBufferDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtoBufferDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProtoBufferDemo/Pods-ProtoBufferDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		1433D9AE1E8B4B9C004EA9D1 /* ProtoBufferDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtoBufferDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1433D9B21E8B4B9C004EA9D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1433D9B41E8B4B9C004EA9D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +124,12 @@
 		1433DA931E8B53E4004EA9D1 /* WireFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WireFormat.m; sourceTree = "<group>"; };
 		1433DAB21E8CDE5A004EA9D1 /* WTYDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYDrawView.h; sourceTree = "<group>"; };
 		1433DAB31E8CDE5A004EA9D1 /* WTYDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYDrawView.m; sourceTree = "<group>"; };
+		149E9D551EC3356E0076A706 /* WTYFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYFileManager.h; sourceTree = "<group>"; };
+		149E9D561EC3356E0076A706 /* WTYFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYFileManager.m; sourceTree = "<group>"; };
+		149E9D581EC335A10076A706 /* WTYDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYDBManager.h; sourceTree = "<group>"; };
+		149E9D591EC335A10076A706 /* WTYDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYDBManager.m; sourceTree = "<group>"; };
+		439F065A2DB75914FDE14DE2 /* Pods-ProtoBufferDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtoBufferDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProtoBufferDemo/Pods-ProtoBufferDemo.release.xcconfig"; sourceTree = "<group>"; };
+		706D72DBCBE6E31E8EBF7AE4 /* libPods-ProtoBufferDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProtoBufferDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C610905B8C411B44C757F50 /* libPods-ProtoBufferDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +165,8 @@
 				1433D9CA1E8B4B9C004EA9D1 /* ProtoBufferDemoTests */,
 				1433D9D51E8B4B9C004EA9D1 /* ProtoBufferDemoUITests */,
 				1433D9AF1E8B4B9C004EA9D1 /* Products */,
+				7EDF78A2DAB20D44D91816AC /* Pods */,
+				C6C7E23E782A1E53E7822E54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,6 +192,10 @@
 				1433D9B81E8B4B9C004EA9D1 /* ViewController.m */,
 				1433DAB21E8CDE5A004EA9D1 /* WTYDrawView.h */,
 				1433DAB31E8CDE5A004EA9D1 /* WTYDrawView.m */,
+				149E9D551EC3356E0076A706 /* WTYFileManager.h */,
+				149E9D561EC3356E0076A706 /* WTYFileManager.m */,
+				149E9D581EC335A10076A706 /* WTYDBManager.h */,
+				149E9D591EC335A10076A706 /* WTYDBManager.m */,
 				1433DA671E8B4EB7004EA9D1 /* PrefixHeader.pch */,
 				1433DA681E8B53E4004EA9D1 /* ProtocolBuffers */,
 				1433D9BA1E8B4B9C004EA9D1 /* Main.storyboard */,
@@ -265,6 +282,23 @@
 			path = ProtocolBuffers;
 			sourceTree = "<group>";
 		};
+		7EDF78A2DAB20D44D91816AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10786617BEE525F850C47962 /* Pods-ProtoBufferDemo.debug.xcconfig */,
+				439F065A2DB75914FDE14DE2 /* Pods-ProtoBufferDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6C7E23E782A1E53E7822E54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				706D72DBCBE6E31E8EBF7AE4 /* libPods-ProtoBufferDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -272,9 +306,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1433D9DB1E8B4B9C004EA9D1 /* Build configuration list for PBXNativeTarget "ProtoBufferDemo" */;
 			buildPhases = (
+				83130EE2EC12D8A4B3F1EA3C /* [CP] Check Pods Manifest.lock */,
 				1433D9AA1E8B4B9C004EA9D1 /* Sources */,
 				1433D9AB1E8B4B9C004EA9D1 /* Frameworks */,
 				1433D9AC1E8B4B9C004EA9D1 /* Resources */,
+				2F23F950F2A09C0278F96372 /* [CP] Embed Pods Frameworks */,
+				E139D5277095BF00B25AE247 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -394,6 +431,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F23F950F2A09C0278F96372 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProtoBufferDemo/Pods-ProtoBufferDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83130EE2EC12D8A4B3F1EA3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E139D5277095BF00B25AE247 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProtoBufferDemo/Pods-ProtoBufferDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1433D9AA1E8B4B9C004EA9D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -409,6 +494,7 @@
 				1433DA971E8B53E4004EA9D1 /* CodedOutputStream.m in Sources */,
 				1433D9B91E8B4B9C004EA9D1 /* ViewController.m in Sources */,
 				1433DAA61E8B53E4004EA9D1 /* WireFormat.m in Sources */,
+				149E9D5A1EC335A10076A706 /* WTYDBManager.m in Sources */,
 				1433DAB41E8CDE5A004EA9D1 /* WTYDrawView.m in Sources */,
 				1433DAA31E8B53E4004EA9D1 /* UnknownFieldSet.m in Sources */,
 				1433DAA41E8B53E4004EA9D1 /* UnknownFieldSet_Builder.m in Sources */,
@@ -417,6 +503,7 @@
 				1433DA961E8B53E4004EA9D1 /* CodedInputStream.m in Sources */,
 				1433DA261E8B4CC4004EA9D1 /* Person.pb.m in Sources */,
 				1433DAA21E8B53E4004EA9D1 /* TextFormat.m in Sources */,
+				149E9D571EC3356E0076A706 /* WTYFileManager.m in Sources */,
 				1433DA9B1E8B53E4004EA9D1 /* ExtensionRegistry.m in Sources */,
 				1433D9B61E8B4B9C004EA9D1 /* AppDelegate.m in Sources */,
 				1433D9B31E8B4B9C004EA9D1 /* main.m in Sources */,
@@ -566,12 +653,13 @@
 		};
 		1433D9DC1E8B4B9C004EA9D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10786617BEE525F850C47962 /* Pods-ProtoBufferDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ProtoBufferDemo/PrefixHeader.pch;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/ProtoBufferDemo/ProtocolBuffers\"";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ProtoBufferDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WTY.ProtoBufferDemo;
@@ -581,12 +669,13 @@
 		};
 		1433D9DD1E8B4B9C004EA9D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 439F065A2DB75914FDE14DE2 /* Pods-ProtoBufferDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ProtoBufferDemo/PrefixHeader.pch;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/ProtoBufferDemo/ProtocolBuffers\"";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ProtoBufferDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WTY.ProtoBufferDemo;
