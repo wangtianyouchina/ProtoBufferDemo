@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "WTYFileManager.h"
+
 @interface WTYFileManagerTestCase : XCTestCase
 
 @end
@@ -68,6 +69,25 @@
     NSString *fromPath = [NSString stringWithFormat:@"%@/%@",path,@"person.data"];
     NSString *toPath = [NSString stringWithFormat:@"%@/%@/%@",NSHomeDirectory(),@"Library/copy",@"personCopy.data"];
     [file copyFilePath:fromPath toPath:toPath];
+}
+
+-(void)testzipFile {
+    NSString *path = [NSString stringWithFormat:@"%@/%@",NSHomeDirectory(),@"Documents"];
+    WTYFileManager *file = [WTYFileManager shareInstance];
+        NSString *fromPath = [NSString stringWithFormat:@"%@/%@",path,@"aaa"];
+//    NSString *fromPath = [NSString stringWithFormat:@"%@",path];
+    NSString *toPath = [NSString stringWithFormat:@"%@/%@/%@",NSHomeDirectory(),@"Documents",@"document.zip"];
+
+    [file zipFileWithFromPath:fromPath toPath:toPath];
+}
+
+-(void)testunzipFile {
+    NSString *path = [NSString stringWithFormat:@"%@/%@",NSHomeDirectory(),@"Documents"];
+    WTYFileManager *file = [WTYFileManager shareInstance];
+    NSString *fromPath = [NSString stringWithFormat:@"%@/%@",path,@"document.zip"];
+    NSString *toPath = [NSString stringWithFormat:@"%@/%@/%@",NSHomeDirectory(),@"Documents",@"sss"];
+    
+    [file unzipFileWithFromPath:fromPath toPath:toPath];
 }
 
 

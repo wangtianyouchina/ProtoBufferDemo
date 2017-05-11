@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <YTKKeyValueStore/YTKKeyValueStore.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +17,30 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    YTKKeyValueStore *store = [[YTKKeyValueStore alloc] initDBWithName:@"test.db"];
+    NSString *tableName = @"user_table";
+    [store createTableWithName:tableName];
+    // 保存
+    NSString *key = @"1";
+    NSDictionary *user = @{@"id": @1, @"name": @"tangqiao", @"age": @30};
+    [store putObject:user withId:key intoTable:tableName];
+     key = @"2";
+
+    user = @{@"id": @2, @"namdde": @"tang我qiao", @"age": @30};
+    [store putObject:user withId:key intoTable:tableName];
+    key = @"3";
+
+    user = @{@"id": @3, @"namde": @"ta五天佑iao", @"age": @30};
+    key = @"4";
+
+    [store putObject:user withId:key intoTable:tableName];
+    key = @"5";
+
+    user = @{@"id": @4, @"namde": @"tangqsiao", @"age": @30};
+    [store putObject:user withId:key intoTable:tableName];
+    // 查询
+    NSDictionary *queryUser = [store getObjectById:key fromTable:tableName];
+    NSLog(@"query data result: %@", queryUser);
     return YES;
 }
 

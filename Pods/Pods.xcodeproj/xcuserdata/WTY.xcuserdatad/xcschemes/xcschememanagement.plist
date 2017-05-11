@@ -14,7 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-ProtoBufferDemoTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SSZipArchive.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YTKKeyValueStore.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>15591881115A88FB0162ADBA4591EA45</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>86350D7737BCF1D342A290B31C47047D</key>
+		<key>5DD68C019F0682E687F9031A48E74A26</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>8642CC820CE8C5B88C113D7F47AF4BC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EBF365D830DDC0C0D259E1D993208E1E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F18E77E4CC17E745E30EA7D248912D4A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F2C96FC263466B0D00EB3C25C552E7E2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

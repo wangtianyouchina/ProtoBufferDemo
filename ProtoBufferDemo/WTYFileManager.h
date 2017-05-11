@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <SSZipArchive/ZipArchive.h>
 @interface WTYFileManager : NSObject
 +(instancetype)shareInstance;
 -(void)moveFilePath:(NSString *)fromPath toPath:(NSString *)path;
@@ -15,4 +15,6 @@
 -(void)copyFilePath:(NSString *)fromPath toPath:(NSString *)topath;
 -(BOOL)creatFileWithPath:(NSString *)path content:(NSString *)content;
 -(void)creatDirWithPath:(NSString *)path;
+-(void)zipFileWithFromPath:(NSString *)fromPath toPath:(NSString *)toPath;
+-(void)unzipFileWithFromPath:(NSString *)fromPath toPath:(NSString *)toPath;
 @end

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EBF365D830DDC0C0D259E1D993208E1E'
-               BlueprintName = 'SSZipArchive'
+               BlueprintIdentifier = 'F18E77E4CC17E745E30EA7D248912D4A'
+               BlueprintName = 'YTKKeyValueStore'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libSSZipArchive.a'>
+               BuildableName = 'libYTKKeyValueStore.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

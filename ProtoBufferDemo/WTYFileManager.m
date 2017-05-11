@@ -99,4 +99,25 @@ static NSFileManager *fileManager;
     }
 }
 
+-(void)zipFileWithFromPath:(NSString *)fromPath toPath:(NSString *)toPath {
+    
+    BOOL isDir = NO;
+    BOOL exist = [fileManager fileExistsAtPath:fromPath isDirectory:&isDir];
+    if (!exist) {
+        return;
+    }
+    if (isDir) {
+        [SSZipArchive createZipFileAtPath:toPath withContentsOfDirectory:fromPath];
+    }
+    else {
+        [SSZipArchive createZipFileAtPath:toPath withFilesAtPaths:@[fromPath]];
+
+    }
+    
+}
+-(void)unzipFileWithFromPath:(NSString *)fromPath toPath:(NSString *)toPath {
+    
+    [SSZipArchive unzipFileAtPath:fromPath toDestination:toPath];
+}
+
 @end

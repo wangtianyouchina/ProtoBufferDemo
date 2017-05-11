@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1303F4BFFF139691C73E41ED /* libPods-ProtoBufferDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D14661B225CC701FAFCDD4BB /* libPods-ProtoBufferDemoTests.a */; };
 		1433D9B31E8B4B9C004EA9D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433D9B21E8B4B9C004EA9D1 /* main.m */; };
 		1433D9B61E8B4B9C004EA9D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433D9B51E8B4B9C004EA9D1 /* AppDelegate.m */; };
 		1433D9B91E8B4B9C004EA9D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433D9B81E8B4B9C004EA9D1 /* ViewController.m */; };
@@ -130,8 +131,12 @@
 		149E9D581EC335A10076A706 /* WTYDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYDBManager.h; sourceTree = "<group>"; };
 		149E9D591EC335A10076A706 /* WTYDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYDBManager.m; sourceTree = "<group>"; };
 		149E9D5B1EC33B460076A706 /* WTYFileManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYFileManagerTestCase.m; sourceTree = "<group>"; };
+		149E9D5D1EC3FEB70076A706 /* libSSZipArchive.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSSZipArchive.a; path = "../../../Library/Developer/Xcode/DerivedData/ProtoBufferDemo-coqencctyasllbfgepextvsdayyp/Build/Products/Debug-iphonesimulator/SSZipArchive/libSSZipArchive.a"; sourceTree = "<group>"; };
 		439F065A2DB75914FDE14DE2 /* Pods-ProtoBufferDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtoBufferDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProtoBufferDemo/Pods-ProtoBufferDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5A53DFF2ED1F0D454237AEB3 /* Pods-ProtoBufferDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtoBufferDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProtoBufferDemoTests/Pods-ProtoBufferDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		706D72DBCBE6E31E8EBF7AE4 /* libPods-ProtoBufferDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProtoBufferDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5526FCAFD834A112E075AF8 /* Pods-ProtoBufferDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtoBufferDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProtoBufferDemoTests/Pods-ProtoBufferDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D14661B225CC701FAFCDD4BB /* libPods-ProtoBufferDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProtoBufferDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1303F4BFFF139691C73E41ED /* libPods-ProtoBufferDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +296,8 @@
 			children = (
 				10786617BEE525F850C47962 /* Pods-ProtoBufferDemo.debug.xcconfig */,
 				439F065A2DB75914FDE14DE2 /* Pods-ProtoBufferDemo.release.xcconfig */,
+				5A53DFF2ED1F0D454237AEB3 /* Pods-ProtoBufferDemoTests.debug.xcconfig */,
+				B5526FCAFD834A112E075AF8 /* Pods-ProtoBufferDemoTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -297,7 +305,9 @@
 		C6C7E23E782A1E53E7822E54 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				149E9D5D1EC3FEB70076A706 /* libSSZipArchive.a */,
 				706D72DBCBE6E31E8EBF7AE4 /* libPods-ProtoBufferDemo.a */,
+				D14661B225CC701FAFCDD4BB /* libPods-ProtoBufferDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -329,9 +339,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1433D9DE1E8B4B9C004EA9D1 /* Build configuration list for PBXNativeTarget "ProtoBufferDemoTests" */;
 			buildPhases = (
+				4276126D61DD1A298AE134E2 /* [CP] Check Pods Manifest.lock */,
 				1433D9C31E8B4B9C004EA9D1 /* Sources */,
 				1433D9C41E8B4B9C004EA9D1 /* Frameworks */,
 				1433D9C51E8B4B9C004EA9D1 /* Resources */,
+				8DF162C78ED4B28E42B7C1B6 /* [CP] Embed Pods Frameworks */,
+				DDDEE956B493E888D680CA74 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -450,6 +463,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProtoBufferDemo/Pods-ProtoBufferDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4276126D61DD1A298AE134E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		83130EE2EC12D8A4B3F1EA3C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -463,6 +491,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8DF162C78ED4B28E42B7C1B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProtoBufferDemoTests/Pods-ProtoBufferDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDDEE956B493E888D680CA74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProtoBufferDemoTests/Pods-ProtoBufferDemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E139D5277095BF00B25AE247 /* [CP] Copy Pods Resources */ = {
@@ -691,6 +749,7 @@
 		};
 		1433D9DF1E8B4B9C004EA9D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A53DFF2ED1F0D454237AEB3 /* Pods-ProtoBufferDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ProtoBufferDemoTests/Info.plist;
@@ -703,6 +762,7 @@
 		};
 		1433D9E01E8B4B9C004EA9D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5526FCAFD834A112E075AF8 /* Pods-ProtoBufferDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ProtoBufferDemoTests/Info.plist;
