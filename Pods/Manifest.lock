@@ -2,20 +2,23 @@ PODS:
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
+  - Protobuf (3.3.0)
   - SSZipArchive (1.8.1)
   - YTKKeyValueStore (0.1.2):
     - FMDB (~> 2.0)
 
 DEPENDENCIES:
   - FMDB
+  - Protobuf (~> 3.3.0)
   - SSZipArchive
   - YTKKeyValueStore
 
 SPEC CHECKSUMS:
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Protobuf: d582fecf68201eac3d79ed61369ef45734394b9c
   SSZipArchive: 04547dfa448be5ed7ecbaf7eaf8a6e9eb9b42997
   YTKKeyValueStore: 4d002941540dd5108fa23009b71e0f2f937f7a0f
 
-PODFILE CHECKSUM: 88397ed575a14165fa0c5c367c1ab2333d2b8b56
+PODFILE CHECKSUM: ac2f5154ae0b31d2676a030c0a3edfba425640e3
 
 COCOAPODS: 1.2.1
