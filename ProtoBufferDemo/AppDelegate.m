@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import <YTKKeyValueStore/YTKKeyValueStore.h>
-
+#import "WTYProtoTest.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    [[WTYProtoTest alloc] init];
+    
     YTKKeyValueStore *store = [[YTKKeyValueStore alloc] initDBWithName:@"test.db"];
     NSString *tableName = @"user_table";
     [store createTableWithName:tableName];

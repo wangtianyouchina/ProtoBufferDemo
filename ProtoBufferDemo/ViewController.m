@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "Person.pb.h"
+
 #import "WTYDrawView.h"
+#import "Person.pbobjc.h"
 @interface ViewController ()
 @property(nonatomic,strong) WTYDrawView *drawView;
 @end
@@ -43,8 +44,10 @@
 //    Person *person = [[[[[Person builder] setName:@"王天佑"]
 //                        setId:1]
 //                       setEmail:@"王天佑"] build];
-    Person *person = [[[[Person builder] setName:@"王天佑"]
-                       setId:1] build];
+    
+    Person *person = [Person message];
+    person.name = @"王天佑";
+    person.id_p = 1;
     
     NSData *data = [person data];
     NSString *basePath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
@@ -55,12 +58,13 @@
         
         NSData *data = [NSData dataWithContentsOfFile:path];
         
-        Person *person = [Person parseFromData:data];
+        Person *person = [Person parseFromData:data error:nil];
         
         if (person) {
-            NSLog(@"\n id %d \n name: %@ \n email: %@ \n",person.id, person.name, person.email);
+            NSLog(@"\n id %d \n name: %@ \n email: %@ \n",person.id_p, person.name, person.email);
         }
     }
+     
 
 }
 
